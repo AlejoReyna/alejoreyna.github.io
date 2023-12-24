@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Diphylleia&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('2Kjv.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.textContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.animatedText {
+    display: inline-block;
+    width: 500px;
+}
+
+.animatedText h3 {
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+    overflow: hidden; /* Oculta cualquier contenido que exceda el ancho del contenedor */
+    animation: fadeIn 2s forwards; /* Aplica la animación fadeIn durante 2 segundos */
+}
+
+.animatedText p {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 5px;
+    font-family: 'Diphylleia', serif;
+    font-size: 20px;
+}
+
+.gifts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.gifts img {
+    width: 320px;
+}
+
+.gift-container {
+    margin-left: 60px;
+}
+
+#two {
+    margin-top: 300px;
+}
+
+.audioContainer {
+    display: flex;
+    justify-content: center;
+}
